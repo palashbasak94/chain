@@ -39,5 +39,52 @@ body {
     /* Paragraph Colors */
     --text-color: #777777;
     --text-light-color: #afafaf;
+    --text-dark-color: #2a2a2a;
 
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+#header {
+    padding: 25px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-menu ul {
+    display: flex;
+    gap: 45px;
+}
+
+.gradient-button {
+    margin-left: 25px;
+}
+
+.gradient-button a {
+    background: var(--primary-gradient);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: var(--bg-color) !important;
+}
+
+#nav-menu ul li a {
+    color: var(--text-dark-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#nav-menu ul li a.active {
+    color: var(--primary-color);
+}
+
+#nav-menu ul li a:hover {
+    color: var(--primary-color);
 }
