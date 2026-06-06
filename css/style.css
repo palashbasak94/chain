@@ -48,9 +48,15 @@ body {
     margin: 0 auto;
 }
 
+/* Header Section */
+
 #header {
     padding: 25px;
-    border-bottom: 1px solid #d3d3d3;
+    border-bottom: 1px solid rgba(42,42,42,0.2);
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 
 .header-section {
@@ -87,4 +93,51 @@ body {
 
 #nav-menu ul li a:hover {
     color: var(--primary-color);
+}
+
+
+/* Banner Section */
+
+.banner-section {
+    display: flex;
+    align-items: center;
+}
+
+.banner-text h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--text-dark-color);
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.banner-text p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.primary-btn {
+    background: var(--primary-color);
+    padding: 10px 30px;
+    color: var(--bg-color);
+    border-radius: 20px;
+    display: flex;
+}
+
+.primary-btn i {
+    padding-left: 10px;
+}
+
+.banner-btn {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-section {
+    background-image: url("/images/slider-left-dec.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+    padding: 250px 120px 150px 120px;
 }
