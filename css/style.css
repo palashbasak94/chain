@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    /* Fonts */
+    --font-family: 'Poppins', sans-serif;
+
+    /* Background Colors */
+    --bg-color: #ffffff;
+
+    /* Primary Brand Color */
+    --primary-color: #4b8ef1;
+    --primary-hover-color: #3a7be0;
+
+    /* Secondary Brand Color */
+    --secondary-color: #5f6fff;
+    --secondary-hover-color: #6a5cff;
+
+    /* Gradient */
+    --primary-gradient: linear-gradient(105deg, rgba(88, 112, 236, 1) 0%, rgba(44, 214, 251, 1) 100%);
+
+    /* Paragraph Colors */
+    --text-color: #777777;
+    --text-light-color: #afafaf;
+
+}
